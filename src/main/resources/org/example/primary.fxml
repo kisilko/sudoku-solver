@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PrimaryController">
+
+    <ProgressIndicator fx:id="progressIndicator" layoutX="520.0" layoutY="360.0" prefHeight="30.0" prefWidth="30.0" />
+    <ButtonBar layoutX="400.0" layoutY="363.0">
+        <buttons>
+            <Button mnemonicParsing="false" styleClass="clear-button" onAction="#onClear" text="Clear" />
+            <Button mnemonicParsing="false" fx:id="solveButton" styleClass="solve-button" onAction="#onSolve" text="Solve" />
+        </buttons>
+    </ButtonBar>
+</AnchorPane>

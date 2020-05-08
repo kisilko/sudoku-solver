@@ -1,0 +1,43 @@
+.text-field {
+    -fx-border-color: white;
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-alignment: center;
+    -fx-font-size: 18px;
+}
+
+.grid-pane {
+    -fx-background-color: white;
+    -fx-padding: 2 1 1 2;
+    -fx-background-color: black, white;
+    -fx-background-insets: 0, 2 1 1 2;
+}
+
+.cell {
+    -fx-background-color: black, white;
+    -fx-background-insets: 0, 0 1 1 0;
+ }
+.h-line {
+    -fx-background-color: black, white;
+    -fx-background-insets: 0, 0 1 2 0;
+}
+.v-line {
+    -fx-background-color: black, white;
+    -fx-background-insets: 0, 0 2 1 0;
+}
+.h-line.v-line {
+    -fx-background-color: black, white;
+    -fx-background-insets: 0, 0 2 2 0;
+}
+
+.solve-button {
+    -fx-background-color: green;
+}
+.clear-button {
+    -fx-background-color: red;
+}
+
+.clear-button, .solve-button {
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
